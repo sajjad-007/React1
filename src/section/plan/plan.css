@@ -1,0 +1,134 @@
+#plan {
+    padding: 120px 0 164px;
+}
+.plan_heading h2 {
+    width: 689px;
+    text-align: center;
+    margin: 0 auto;
+}
+.plan_swap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    margin-top: 36px;
+
+}
+.plan_swap h4 {
+    color: var(--black);
+    font-size: 28px;
+    font-family: var(--font_nunito);
+    font-weight: 700;
+    line-height: 100%;
+    text-transform: capitalize;
+    text-align: center;
+}
+.paln_switch_swap {
+    width: 70px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: var(--blue);
+    position: relative;
+}
+.paln_switch_swap::after {
+    position: absolute;
+    content: "";
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    left: 7px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--white);
+}
+.plan_item {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+.plan_item_box {
+    margin-top: 160px;
+    width: 450px;
+    border-radius: 30px;
+    /* background-color: rgba(89, 27, 16, 0.333); */
+    padding: 48px;
+    transition: all linear .3s;
+}
+.plan_item_box h4 {
+    color: var(--black);
+    font-size: 36px;
+    font-family: var(--font_open);
+    line-height: 140%;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 48px;
+    transition: all linear .3s;
+}
+.plan_package {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.plan_package_name {
+    display: flex;
+    flex-direction: column;
+    row-gap: 28px;
+}
+.plan_package_name li {
+    color: #545A64;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    font-family: var(--font_nunito);
+}
+.plan_package_name li  {
+    display: flex;
+    column-gap: 14px;
+    align-items: center;
+}
+.plan_package_name li  i {
+    color: #545A64;
+    font-size: 20px;
+}
+.plan_package_value {
+    display: flex;
+    flex-direction: column;
+    row-gap: 28px;
+}
+.plan_package_value li span {
+    color: var(--blue);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 120%;
+    line-height: var(--font_nunito);
+    text-transform: capitalize;
+    text-align: right;
+}
+.plan_btn {
+    margin-top: 48px;
+}
+.plan_btn .commonbtn {
+    background-color: #8454F51A;
+    color: var(--blue);
+}
+.plan_item_box:hover {
+    margin-top: 80px;
+    background: #181059;
+}
+.plan_item_box:hover h4 {
+    color: var(--sada);
+}
+.plan_item_box:hover .plan_package_name li  svg{
+    color: var(--sada);
+}
+.plan_item_box:hover .plan_package_name li span{
+    color: var(--sada);
+}
+.plan_item_box:hover .plan_package_value li span{
+    color: var(--sada);
+}
+.plan_item_box:hover .plan_btn .commonbtn {
+    color: var(--white);
+    background-color: var(--blue);
+}
+/* ===========plan code end =========== */

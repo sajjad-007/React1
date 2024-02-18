@@ -1,0 +1,64 @@
+/* ===========common code start =========== */
+:root {
+  --font_nunito: 'Nunito', sans-serif;
+  --font_open: 'Open Sans', sans-serif;
+  --black: #29313D;
+  --blue: #8454F5;
+  --white: #FFF;
+  --sada: #F8FAFC;
+  --orange: #FFC556;
+  --orange2: #FEC35F;
+
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+ul,ol{
+  list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p {
+  line-height: 0.8;
+}
+.container {
+  width: 1410px;
+  margin: 0 auto;
+}
+.paragraph {
+  color: var(--black);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--font_nunito);
+  line-height: 200%;
+  text-transform: capitalize;
+}
+.h2_heading {
+  color: var(--black);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 140%;
+  text-transform: capitalize;
+  font-family: var(--font_open);
+}
+.commonbtn {
+color: var(--white);
+background-color: var(--blue);
+display: inline-block;
+padding: 14px 28px;
+font-size: 18px;
+font-weight: 600;
+font-family: var(--font_nunito);
+line-height: 200%;
+border-radius: 18px;
+text-transform: capitalize;
+transition: all linear .3s;
+}
+.commonbtn:hover {
+  color: var(--white);
+  background-color: rgba(134, 86, 245, 0.837);
+}
+/* ===========common code end =========== */

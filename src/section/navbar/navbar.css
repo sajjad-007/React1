@@ -1,0 +1,55 @@
+/* ===========navbar code start =========== */
+#navbar {
+    padding: 30px 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.nav_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 48px;
+}
+.nav_menu ul li a {
+    color: var(--black);
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--font_open);
+    line-height: normal;
+    text-transform: capitalize;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav_menu ul li a::after {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 2px;
+    left: 0;
+    bottom: -8px;
+    background-color: var(--blue);
+    opacity: 0;
+    visibility: hidden;
+    transition: all ease-in .4s ;
+}
+.nav_menu ul li a:hover::after {
+    opacity: 1;
+    visibility: visible;
+    width: 50px;
+}
+.nav_menu ul li a svg{
+    font-size: 28px;
+    font-family: var(--font_open);
+    color: yellowgreen;
+
+}
+/* ===========navbar code end =========== */

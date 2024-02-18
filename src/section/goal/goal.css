@@ -1,0 +1,39 @@
+#goal {
+    padding: 183px 0 228px 0;
+    position: relative;
+    z-index: -2;
+}
+#goal::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40%;
+    height: 733px;
+    border-radius: 0 150px 150px 0;
+    background-color: rgba(134, 86, 245, 0.106);
+    z-index: -1;
+}
+.goal_wrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 120px;
+}
+.goal_image {
+    margin-left: 52px;
+    width: 488px;
+}
+.goalmessi {
+    width: 689px;
+}
+.goalmessi h2 {
+    width: 689px;
+    margin-bottom: 24px;
+}
+.goalmessi p {
+    width: 575px;
+    margin-right: 61px;
+    margin-bottom: 48px;
+}
+/* ===========goal code end =========== */

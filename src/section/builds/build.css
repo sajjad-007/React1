@@ -1,0 +1,84 @@
+/* ===========build code start =========== */
+#build {
+    padding: 135px 0 140px 0;
+}
+.build_heading h2{
+    width: 690px;
+}
+.build_wrapper {
+    display: flex;
+    column-gap: 60px;
+    margin-top: 90px;
+}
+.build_big_img {
+    width: 450px;
+    height: 520px;
+    overflow: hidden;
+    border-radius: 40px;
+    
+}
+.build_big_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 40px;
+}
+.build_content p{
+    width: 446px;
+    margin: 30px 0 20px 0;
+}
+.build_content h4 {
+    color: var(--black);
+    font-size: 36px;
+    font-family: var(--font_open);
+    font-weight: 600;
+    line-height: 180%;
+    text-transform: capitalize;
+}
+.build_icon  {
+    display: flex;
+    column-gap: 24px;
+    align-items: center;
+    margin: 14px 0 56px 0;
+}
+.build_icon svg{
+    font-size: 36px;
+}
+.iconstyle1{
+    color: blue;
+}
+.iconstyle2{
+    color: red;
+}
+.iconstyle3{
+    color: rgb(7, 179, 247);
+}
+.build_btn {
+    display: flex;
+    column-gap: 24px;
+}
+.build_btn_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: var(--white);
+    transition: all linear .3s;
+    border-radius: 10px;
+    border: 1px solid var(--blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.build_btn_box svg {
+    color: var(--black);
+    font-size: 20px;
+}
+.build_btn_box:hover {
+    background-color: var(--blue);
+}
+.build_btn_box:hover svg{
+    color: var(--white);
+}
+/* ===========build code end =========== */

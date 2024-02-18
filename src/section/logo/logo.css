@@ -1,0 +1,18 @@
+/* ===========logo code start =========== */
+#logo {
+    padding: 80px 0;
+}
+.logo_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.logo_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 90px;
+}

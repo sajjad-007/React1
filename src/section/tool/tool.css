@@ -1,0 +1,123 @@
+/* ===========Tool code start =========== */
+#tool {
+    padding: 120px 0;
+}
+.tool_heading {
+    display: flex;
+    column-gap: 176px;
+    margin-bottom: 80px;
+}
+.tool_heading  h2 {
+    width: 564px;
+}
+.tool_menu {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.tool_menu_item {
+    padding: 24px 34px 48px 24px;
+    border: 1px solid rgba(132, 84, 245, 0.40);
+    width: 450px;
+    border-radius: 30px;
+    transition: all linear .3s;
+}
+.tool_menu_icon {
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+}
+.tool_icon_box {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.tool_change{
+    background-color: rebeccapurple;
+}
+.red{
+    background-color: rgb(240, 196, 196);
+}
+.green{
+    background-color: rgb(209, 245, 209);
+}
+.yellow{
+    background-color: rgb(213, 208, 155);
+}
+.blue{
+    background-color: rgb(185, 185, 238);
+}
+.blueviolet{
+    background-color: rgb(215, 185, 244);
+}
+.red svg{
+    font-size: 40px;
+    color: rgb(237, 81, 81);
+}
+.green svg{
+    font-size: 40px;
+    color: green;
+}
+.yellow svg{
+    font-size: 40px;
+    color: yellow;
+}
+.blue svg{
+    font-size: 40px;
+    color: blue;
+}
+.blueviolet svg {
+    font-size: 40px;
+    color: blueviolet;
+}
+.tool_menu_icon h4 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 140%;
+    color: var(--black);
+    font-family: var(--font_open);
+    text-transform: capitalize;
+}
+.tool_menu_cont p{
+    width: 392px;
+    margin: 16px 0 24px 0;
+}
+.tool_menu_cont a {
+    color: var(--black);
+    font-size: 20px;
+    font-family: var(--font_nunito);
+    font-weight: 600;
+    line-height: 100%;
+    text-transform: capitalize;
+}
+.tool_menu_item:hover {
+    background-color: var(--orange2);
+    border: 1px solid var(--orange2);
+}
+.tool_menu_item:hover .tool_icon_box {
+    background-color: rgba(255, 255, 255, 0.317);
+}
+.tool_menu_item:hover .tool_icon_box i{
+    color: var(--white);
+}
+.tool_menu_item:hover h4{
+    color: var(--white);
+}
+.tool_menu_item:hover p{
+    color: var(--white);
+}
+.tool_menu_item:hover a{
+    color: var(--white);
+}
+.tool_main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+/* ===========Tool code end =========== */

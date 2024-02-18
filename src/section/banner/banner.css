@@ -1,0 +1,69 @@
+/* ===========banner code start =========== */
+#banner {
+    padding: 224px 70px;
+}
+.banner_wrapper {
+    display: flex;
+    align-items: center;
+
+}
+.banner_content h2{
+    width: 720px;
+    margin-bottom: 44px;
+    color: var(--black);
+    font-size: 56px;
+    font-weight: 700;
+    font-family: var(--font_open);
+    line-height: normal;
+    text-transform: capitalize;
+}
+.paragraph.effect {
+    width: 516px;
+    margin-bottom: 52px;
+    position: relative;
+    padding-left: 20px;
+}
+.paragraph.effect::after {
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 80px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--orange);
+}
+.banner_content form {
+    width: 630px;
+    position: relative;
+    /* overflow: hidden; */
+}
+.banner_content form input {
+    width: 100%;
+    padding: 37px 28px;
+    border: none;
+    border-radius: 24px;
+    /* outline: none; */
+    padding-right: 194px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 200%;
+    color: var(--black);
+    font-family: var(--font_nunito);
+
+}
+.banner_content form input::placeholder {
+    color: rgba(41, 49, 61, 0.703);
+}
+.banner_content form .commonbtn {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    cursor: pointer;
+}
+.banner_image {
+    margin-left: 123px;
+}
+/* ===========banner code end =========== */
